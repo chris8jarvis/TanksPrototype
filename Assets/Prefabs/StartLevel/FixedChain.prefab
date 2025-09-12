@@ -1,5 +1,399 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3314697205865582420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3968684721842792546}
+  - component: {fileID: 1226808980951064223}
+  - component: {fileID: 775258204662692799}
+  - component: {fileID: 3578642814292981793}
+  - component: {fileID: 6416015329368614775}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3968684721842792546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3314697205865582420}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.4920847, y: 0.4920847, z: -0.507792, w: 0.507792}
+  m_LocalPosition: {x: -7.898183, y: 0, z: -0.099604756}
+  m_LocalScale: {x: 0.12180327, y: 8.6121025, z: 1.4913573}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1347280511147381410}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &1226808980951064223
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3314697205865582420}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!137 &775258204662692799
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3314697205865582420}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 02881907d230e274a9525153b7287bb3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_Bones: []
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 5, y: 1.110223e-16, z: 5}
+  m_DirtyAABB: 0
+--- !u!64 &3578642814292981793
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3314697205865582420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!183 &6416015329368614775
+Cloth:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3314697205865582420}
+  m_Enabled: 1
+  m_StretchingStiffness: 1
+  m_BendingStiffness: 0
+  m_UseTethers: 1
+  m_UseGravity: 1
+  m_Damping: 0
+  m_ExternalAcceleration: {x: 0, y: 0, z: 0}
+  m_RandomAcceleration: {x: 0, y: 0, z: 0}
+  m_WorldVelocityScale: 0.5
+  m_WorldAccelerationScale: 1
+  m_Friction: 0.5
+  m_CollisionMassScale: 0
+  m_UseContinuousCollision: 1
+  m_UseVirtualParticles: 1
+  m_SolverFrequency: 120
+  m_SleepThreshold: 0.1
+  m_Coefficients:
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 0
+    collisionSphereDistance: 0
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 3
+    collisionSphereDistance: 3
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 6
+    collisionSphereDistance: 6
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 9
+    collisionSphereDistance: 9
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 12
+    collisionSphereDistance: 12
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 15
+    collisionSphereDistance: 15
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 18
+    collisionSphereDistance: 18
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 24
+    collisionSphereDistance: 24
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  - maxDistance: 30
+    collisionSphereDistance: 30
+  m_CapsuleColliders: []
+  m_SphereColliders: []
+  m_SelfCollisionDistance: 0
+  m_SelfCollisionStiffness: 0.2
+  m_SelfAndInterCollisionIndices: 
+  m_VirtualParticleWeights:
+  - {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+  - {x: 0.6666667, y: 0.16666667, z: 0.16666667}
+  - {x: 0.5, y: 0.5, z: 0}
+  m_VirtualParticleIndices: 
 --- !u!1 &6815644441922798411
 GameObject:
   m_ObjectHideFlags: 0
@@ -31,9 +425,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.01110674, y: 0.01110674, z: 0.70701957, w: 0.70701957}
   m_LocalPosition: {x: -2.927, y: 3.292, z: 3.119}
-  m_LocalScale: {x: 0.13929531, y: 0.1481098, z: 0.11609275}
+  m_LocalScale: {x: 0.13929531, y: 0.1481098, z: 0.116092764}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3968684721842792546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -1.8, y: 0, z: 90}
 --- !u!33 &8756065092178880623
