@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: Indicator
   m_EditorClassIdentifier: 
   <Settings>k__BackingField:
-  - Mult: 5
+  - Mult: 1
     Text: Oops!
     Clip: {fileID: 0}
-  - Mult: 6
+  - Mult: 2
     Text: Oh-oh!
     Clip: {fileID: 0}
-  - Mult: 7
+  - Mult: 3
     Text: Crazy!
     Clip: {fileID: 0}
-  - Mult: 8
+  - Mult: 4
     Text: Bang!
     Clip: {fileID: 0}
-  - Mult: 9
+  - Mult: 5
     Text: Carnage!
     Clip: {fileID: 0}
-  - Mult: 10
+  - Mult: 6
     Text: 
     Clip: {fileID: 0}
